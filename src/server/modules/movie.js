@@ -1,11 +1,12 @@
 
 import request from 'request';
+import config from '../config/'; // any benefit passing this into the constructor?!
 
 class Movies {
 
     constructor() {
-      this.apiKey = "rB7hQRo2Z2msh4azTtDBcyVIPVcIp1FgqyPjsnsyrIbR7NHcMs";
-      this.url = "https://andruxnet-random-famous-quotes.p.mashape.com";
+      this.apiKey = config.apiKey;
+      this.url = config.url;
       this.lastQuote = {};
     }
 
