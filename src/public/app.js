@@ -8,10 +8,6 @@ $(function() {
     '#FD971F','#FFD569','#A6E22E','#529B2F'
   ];
 
-
-
-
-
   // Initialize variables
   var $window = $(window);
   var $usernameInput = $('.usernameInput'); // Input for username
@@ -56,9 +52,20 @@ $(function() {
     }
   }
 
+  function checkCommand(message) {
+    if(message.indexOf('/clear')) {
+        console.log('clearing console');
+        $('.message').remove();
+    }
+  }
+
+
+
   // Sends a chat message
   function sendMessage () {
     var message = $inputMessage.val();
+
+    checkCommand(message);
     // Prevent markup from being injected into the message
     message = cleanInput(message);
     // if there is a non-empty message and a socket connection

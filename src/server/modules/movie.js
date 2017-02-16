@@ -5,6 +5,7 @@ import config from '../config/'; // any benefit passing this into the constructo
 class Movies {
 
     constructor() {
+
       this.apiKey = config.apiKey;
       this.url = config.url;
       this.lastQuote = {};
@@ -30,7 +31,6 @@ class Movies {
               } else {
                 return reject(new Error(response.statusCode));
               }
-
           });
       });
     }

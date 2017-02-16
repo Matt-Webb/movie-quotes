@@ -32,13 +32,14 @@ io.on('connection', (socket) => {
 
     if(data.indexOf('quote') > -1) {
       movie.getQuote().then(function(data) {
-        console.log(data);
+
         io.emit('new message',{
           username: 'movie_quote',
           message: data
         });
+
       },function(error) {
-        console.log(error);
+        throw new Error(error);
       });
     }
   });
