@@ -13,4 +13,4 @@ I will refine this project overtime, below are the key things I want to incorpor
 This readme will be updated properly in due course.
 
 
-[logo]: https://github.com/matt-webb/movie-quotes/raw/master/src/public/img/start-wars.jpeg "Movie Quotes"
+[logo]: https://github.com/Matt-Webb/movie-quotes/blob/master/src/public/img/star-wars.jpeg "Movie Quotes"
