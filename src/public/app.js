@@ -54,8 +54,8 @@ $(function() {
 
   function checkCommand(message) {
     if(message.indexOf('/clear')) {
-        console.log('clearing console');
-        $('.message').remove();
+      //  console.log('clearing console');
+      //  $('.message').remove();
     }
   }
 
@@ -250,6 +250,9 @@ $(function() {
 
   // Whenever the server emits 'new message', update the chat body
   socket.on('new message', function (data) {
+    if(data.username === 'movie_quote') {
+      console.log('log', data);
+    }
     addChatMessage(data);
   });
 
