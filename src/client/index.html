@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="chatbox" id="chatbox">
+        <ul id="chatList" class="chat-list"></ul>
+        <input id="chatInput" type="text" class="chat-input" placeholder="Chat here..." maxlength="35" />
+    </div>
+    <div id="startMenu">
+        <input type="text" tabindex="0" autofocus placeholder="Enter your name here" id="userNameInput" maxlength="25" />
+        <b class="input-error">Nick must be alphanumeric characters only!</b>
+        <br />
+        <a><button id="startButton">Chat</button></a>
+    </div>
+  </body>
+  <script src="/app.js"></script>
+</html>

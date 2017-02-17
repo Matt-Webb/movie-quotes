@@ -14,9 +14,11 @@
   "author": "Matthew D Webb",
   "license": "MIT",
   "dependencies": {
+    "compression": "^1.6.1",
     "express": "^4.14.1",
     "request": "^2.79.0",
-    "socket.io": "^1.7.2"
+    "socket.io": "^1.7.2",
+    "socket.io-client": "^1.4.6"
   },
   "devDependencies": {
     "nodemon": "^1.11.0",
@@ -34,6 +36,11 @@
     "webpack": "1.13.2",
     "webpack-dev-middleware": "1.8.4",
     "webpack-hot-middleware": "2.13.0",
-    "webpack-md5-hash": "0.0.5"
+    "webpack-md5-hash": "0.0.5",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-nodemon": "^2.0.7",
+    "webpack": "^1.13.0",
+    "webpack-stream": "^3.2.0"
   }
 }
