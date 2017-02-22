@@ -12,5 +12,6 @@ I will refine this project overtime, below are the key things I want to incorpor
 
 This readme will be updated properly in due course.
 
+TODO tasks:
 
 [logo]: https://github.com/Matt-Webb/movie-quotes/blob/master/src/public/img/star-wars.jpeg "Movie Quotes"
