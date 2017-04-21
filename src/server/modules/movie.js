@@ -1,6 +1,6 @@
 
 import request from 'request';
-import config from '../config/'; // any benefit passing this into the constructor?!
+import config from '../config/';
 
 class Movies {
 
