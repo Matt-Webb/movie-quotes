@@ -1,4 +1,3 @@
-![alt text][logo]
 
 This project is purely for fun, I've been wanting to throw together a few different libraries and frameworks into a Movie Quotes Chat Application.
 
@@ -13,5 +12,3 @@ I will refine this project overtime, below are the key things I want to incorpor
 This readme will be updated properly in due course.
 
 TODO tasks:
-
-[logo]: https://github.com/Matt-Webb/movie-quotes/blob/master/src/public/img/star-wars.jpeg "Movie Quotes"
